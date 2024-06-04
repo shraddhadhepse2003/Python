@@ -1,5 +1,5 @@
 a={'name':'ABC',0:'kuch bhi','age':21}
-print(a)
+'''print(a)
 print(len(a))
 print(type(a))
 
@@ -22,5 +22,15 @@ values=['xyz',33,'thane']
 data={}
 for i in range(len(keys)):
     data[keys[i]]=values[i]
-print(data)
+print(data)'''
+
+print(a.keys())
+print(a.values())
+print(a.items())
+
+
+for k,v in a.items():
+    print(k,v)
+
+
 
