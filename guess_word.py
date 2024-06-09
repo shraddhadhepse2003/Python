@@ -6,6 +6,7 @@ score=0
 while True:
     for wr in range(3):
         lett=list(random.choice(words))
+        print("Welcome to word guess game")
         print("Guess correct word by given word:=>","".join(lett))
         user=input("enter correct word or ('quit'):")
         
