@@ -39,6 +39,10 @@ print(a)
 ab=[1,2,3,3,3]
 print(ab.count(3))
 
+#clear
+a=[1,2,3,5,7,8]
+a.clear()
+
 print(ab.index(3))
 ab.reverse()
 print(ab)
