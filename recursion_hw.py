@@ -14,24 +14,33 @@ def facto():
     print(fact)
 facto()
 
-
-##def facto(n):
-##    if n==0:
-##        return 0
-##    if n==1:
-##        return 1
-##    return (n * facto(n - 1))
-##n=int(input("Enter the number:"))
-##print(facto(n))
-###num=5
-####print("number : ",num)
-####print("Fact
-##orial : ",facto(num))
-
-
 ##find power of number using recursion
 ##find prime no. using recursion
+
 ##wap to counting no. of digit in given number
+a=1234578
+b=str(a)
+print(str(len(b)))
+
+
+
 ##fibonacii
+##def fibo(n):
+##    if n==1:
+##        return 0
+##    if n==2:
+##        return 1
+##    return fibo(n-2)+fibo(n-1)
+##n=int(input("Enter the number of terms:"))
+##print(fibo(n))
+
+
 ##sum of 1st n no. using recursion
+
+
 ##wap for printing n to 1 ......10=10 9 8 7 6 5 4 3 2 1
+n=int(input("Enter a number:"))
+for i in range(n,0,-1):
+    print(i)
+    
+
