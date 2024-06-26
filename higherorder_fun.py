@@ -34,10 +34,33 @@
 
 number=[45,77,88,33,48,50,13]
 def prime_fun(x):
-    for i in range(2,100,1):
-        if x%i != 0:
+    for i in range(2,101,1):
+        if x%i == 0:
+            break;
+    if x==i:
             return True
+        
 filter_object=list(filter(prime_fun,number))
 print(filter_object)
 
 
+
+#map function
+#this is also built in higher order function,it apply specific function on each element of the iterable and perhaps change element
+
+##n=[1,2,3,4,5,6]
+##def square(x):
+##    return x*x
+##y=list(map(square,n))
+##print(y)
+
+##n=[1,2,3,4,5,6]
+##def facto(x):
+##    i=1
+##    fact=1
+##    while i<=x:
+##        fact=fact*i
+##        i=i+1
+##    return fact
+##a=list(map(facto,n))
+##print(a)
