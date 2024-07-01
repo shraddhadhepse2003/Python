@@ -7,14 +7,14 @@ a['age']=20
 
 a['city']='thane'
 #a['name']='Shraddha'
-print(a)
+print(a)'''
 
 
-for i in a:
-    print(f"{i} = {a[i]}")
+##for i in a:
+##    print(f"{i} = {a[i]}")
 
 
-for i in a:
+'''for i in a:
     print(f"{i}")
 
 keys=['name','age','city']
@@ -24,11 +24,11 @@ for i in range(len(keys)):
     data[keys[i]]=values[i]
 print(data)'''
 
-print(a.keys())
-print(a.values())
-print(a.items())
-
-
+##print(a.keys())
+##print(a.values())
+##print(a.items())
+##
+##
 for k,v in a.items():
     print(k,v)
 
