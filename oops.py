@@ -1,7 +1,10 @@
 ##class is a blueprint that defines some properties and behaviours. an object is an instance of a class that has those properties and
-##behaviours attached. A class is not allocated memory whwn it it defined.
+##behaviours attached. A class is not allocated memory when it it defined.
 ##An object is allocated memory when it is created.
 ##class is a logical entity whereas objects are physical entities
+
+##class=class is a collection of object
+##object=object is a instance of class
 
 ##a=10
 ##print(type(a))
@@ -28,39 +31,40 @@
 ##    roll_no=123
 ##
 ##    def demo(self):    #self is default parameter that represent instance of class
-##        name='shraddha'
+##        name='shrads'
 ##        print(name)
+##        #print(s.name)
 ##
 ##s=student()
-###s.demo()
-##
+##s.demo()
+
 ##k=student()
 ##k.demo
-##
-##
-##
 
-##class A:
-##    def demo(self,department):
-##        print(department)
-##        print(self)
-##        name='shraddha'
-##        age=21
-##        roll_n0=101
-##        print(name,age,roll_no)
-##
-##    def display(self):
-##        email='r@gmail.com'
-##        address='thane'
-##        print(email,address)
-##
-##a=A()
-##a.demo()
-##print(a)
-##
-##a.display()
-##A.demo('K')
-##a.demo('Mech')
+
+
+
+class A:
+    def demo(self,department):
+        print(department)
+        print(self)
+        name='shraddha'
+        age=21
+        roll_n0=101
+        print(name,age,roll_no)
+
+    def display(self):
+        email='r@gmail.com'
+        address='thane'
+        print(email,address)
+
+a=A()
+a.demo()
+#print(a)
+
+a.display()
+#A.demo('K')
+a.demo('Mech')
 
 ##class student:
 ##    def show(self,name,roll_no):
@@ -76,18 +80,18 @@
 ##s.display()
 ##
 
-class student:
-    name='shraddha'
-    email='e@'
-    def show(self):
-        print(self.name,self.email)
-        print("python developer")
-    def display(self):
-        print(self.name)
-        print("java developer")
-a=student()
-#print(a.name)
-a.show()
-a.display()
+##class student:
+##    name='shraddha'
+##    email='e@'
+##    def show(self):
+##        print(self.name,self.email)
+##        print("python developer")
+##    def display(self):
+##        print(self.name)
+##        print("java developer")
+##a=student()
+###print(a.name)
+##a.show()
+##a.display()
 
 
