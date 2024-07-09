@@ -5,8 +5,8 @@
 ##4)variable length argument
 
 
-1)Positional argument
-during a function call,values passed through arguments should be in the order of parameters in the function definition
+##1)Positional argument
+##during a function call,values passed through arguments should be in the order of parameters in the function definition
 
 ##def simple_int():
 ##    print('principle is',p)
@@ -19,7 +19,7 @@ during a function call,values passed through arguments should be in the order of
 ##t=5
 ##simple_int()
 
-`
+
 ##def simple_int(r,p,t):
 ##    print('principle is',p)
 ##    print('rate is',r)
@@ -31,17 +31,17 @@ during a function call,values passed through arguments should be in the order of
 ##t=5
 ##simple_int(p,r,t)
 
-def simple_int(x,y,z):
+##def simple_int(x,y,z):
+####    print('principle is',p)
+####    print('rate is',r)
+####    print('time is',t)
 ##    print('principle is',p)
 ##    print('rate is',r)
 ##    print('time is',t)
-    print('principle is',p)
-    print('rate is',r)
-    print('time is',t)
-    si=p*r*t/100
-    print('simple intrest is:',si)
-p=5000
-r=10
-t=5
-simple_int()
+##    si=p*r*t/100
+##    print('simple intrest is:',si)
+##p=5000
+##r=10
+##t=5
+##simple_int()
 
